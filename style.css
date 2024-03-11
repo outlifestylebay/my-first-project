@@ -1,0 +1,110 @@
+/* Globale Stile */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center; /* Zentriert den Inhalt horizontal */
+}
+
+h1 {
+    color: #ffffff;
+}
+
+p {
+    color: #ffeaea;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #56a5eb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4287f5;
+}
+
+/* Quiz-Stile */
+#quizContainer {
+    text-align: left; /* Zentriert den Inhalt horizontal */
+}
+
+#question {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #fff9f9;
+}
+
+#choices {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.choice-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #56a5eb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.choice-button:hover {
+    background-color: #4287f5;
+}
+
+#nextButton {
+    margin-top: 20px;
+}
+
+/* Highscore-Stile */
+#highscoreContainer {
+    margin-top: 20px;
+}
+
+.highscore-item {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.highscore-name {
+    font-weight: bold;
+}
+
+.highscore-score {
+    margin-left: 10px;
+}
+
+/* Bilder-Stile */
+.image-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    background-image: url('https://cdn.prod.www.spiegel.de/images/cb6d3c29-0001-0004-0000-000001439105_w948_r1.77_fpx35.58_fpy50.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
