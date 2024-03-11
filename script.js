@@ -97,7 +97,7 @@ function selectAnswer(index) {
         feedbackElement.textContent = 'FALSCH.';
         feedbackElement.style.color = 'red';
         document.getElementById('choices').appendChild(feedbackElement);
-        setTimeout(showNextQuestion, 10000); // Zeige nach 10 Sekunden die nächste Frage
+        setTimeout(showNextQuestion, 50000); // Zeige nach 50 Sekunden die nächste Frage
     }
 }
 
@@ -117,8 +117,7 @@ function showNextQuestion() {
         feedbackElement.textContent = questions[currentQuestionIndex].infoText;
         feedbackElement.style.color = 'blue'; // Ändere die Farbe nach deinen Wünschen
         document.getElementById('quizContainer').appendChild(feedbackElement);
-    }, 1000); // Warte 1 Sekunde, bevor der Info-Text angezeigt wird (kann angepasst werden)
-    }
+    }, 
 }
        
 function startQuiz() {
